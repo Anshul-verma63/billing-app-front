@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.left-items {
+  display: flex;
+  justify-content: center;
+}
+.right {
+  width: 100%;
+  height: 100vh;
+}
+
+.input-item {
+  margin: 5px;
+}
+
+.product-detail {
+  width: 400px;
+  height: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customer-detail {
+  width: 400px;
+  height: 120px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.customer-detail,
+.product-detail input {
+  margin-left: 10px;
+}
+
+.head {
+  text-align: center;
+}
+
+.functions {
+  display: flex;
+  justify-content: center;
+}
+
+.cus-btn {
+  padding: 10px 5px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbar-box {
+  width: 100%;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+/* search bill  */
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-container input {
+  width: 65%;
+  height: 40px;
+  outline: none;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.search-box {
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+.search-btn {
+  padding: 8px 25px;
+  margin-left: 20px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.modal-body {
+  padding: 3rem !important;
+  height: 50vh !important;
+  margin-top: 2rem;
+}
+
+.customer-body {
+  padding: 5rem !important;
+  height: 65vh !important;
+  margin-top: 4rem;
+}
+/* dashboard */
+.dashboard {
+  width: 100%;
+  display: flex;
+}
+.left {
+  height: 100vh;
+  width: 20%;
+  background-color: azure;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+.nav {
+  width: 100%;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.list-item > a {
+  text-decoration: none;
+  color: white;
+}
+.list-item {
+  display: block;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin: 20px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dashboard-header {
+  padding: 10px;
+  background-color: rgb(204, 208, 208);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+/* //signature */
+.signature {
+  width: 100px;
+  height: 80px;
+  background: url("./img/sign.jpg") no-repeat;
+  background-size: cover;
+}
+p {
+  margin: 2px;
+  padding: 2px;
+}
